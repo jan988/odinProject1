@@ -1,0 +1,263 @@
+
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.first{
+    background-color: #1F2937;
+}
+
+header{
+    display: flex;
+    justify-content: space-between; /* Aligns h1 to the left and navbar to the right */
+    align-items: center; /* Vertically centers the content */
+    padding: 10px 320px; /* Optional: Padding for some space inside the header */
+}
+
+.prvniFlex{
+    display: flex;
+    justify-content: space-between; /* Aligns h1 to the left and navbar to the right */
+    align-items: center; /* Vertically centers the content */
+    padding: 10px 320px; /* Optional: Padding for some space inside the header */
+
+}
+
+.prvniFlex1{
+    display: flex;
+    flex-direction: column; /* Stack h1, p, and button vertically */
+    align-items: flex-start; /* Align items to the start (left) */
+
+}
+
+.prvniFlex2{
+    max-width: 100%; /* Ensure the image scales within its container */
+    height: auto; /* Maintain the aspect ratio */
+
+}
+
+button {
+    background-color: #007BFF; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* No borders for flat edges */
+    margin: 10px 0px;
+    padding: 10px; /* 20px padding on top, 40px on sides */
+    border-radius: 0; /* Ensures flat edges with no rounding */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Adjust font size if needed */
+}
+
+.image-placeholder {
+    background-color: #808080; /* Light grey background color */
+    width: 500px; /* Width of the placeholder */
+    height: 200px; /* Height of the placeholder */
+    
+    text-align: center; /* Center text inside */
+    line-height: 200px; /* Align text vertically center */
+    color: #E5E7EB;
+    font-size: 18;
+    
+   
+}
+
+
+
+.mainText{
+    font-size: 48;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#secondaryText{
+    color: #E5E7EB;
+    font-size: 18;
+}
+
+.logoText{
+    font-size: 24;
+    color: #F9FAF8;
+}
+
+.navbar{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #E5E7EB;
+    font-size: 18;
+    
+    vertical-align: top;
+    
+    display: flex;
+    
+
+}
+
+/* Display list items inline (horizontally) */
+.navbar li {
+    display: inline;
+    margin-right: 20px; /* Add space between items */
+  }
+
+  .navbar a {
+    color: inherit; /* Inherit the color from the .navbar */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+
+
+  .second{
+    background-color: white;
+  }
+
+
+.secondHeading{
+    margin-top: 30px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+
+/* Container for the rectangles */
+.secondSubbox {
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Space out the rectangles evenly */
+    gap: 20px; /* Optional: Space between rectangles */
+    padding: 20px; /* Optional: Padding around the container */
+}
+
+/* Style for each rectangle box */
+.rectangle-box {
+    display: flex;
+    flex-direction: column; /* Stack the rectangle and caption vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text inside the caption */
+    width: 100px;
+}
+
+/* Style for the rectangle */
+.rectangle {
+    width: 100px; /* Width of the rectangle */
+    height: 100px; /* Height of the rectangle */
+    border: 2px solid #3882f6; /* Blue border */
+    background-color: white; /* White fill */
+    border-radius: 10px; /* Rounded edges */
+    margin-bottom: 10px; /* Space between the rectangle and caption */
+}
+
+/* Style for the caption */
+.caption {
+    margin: 0; /* Remove default margin */
+    font-size: 14px; /* Font size for the caption */
+    width: 100%;
+    word-wrap: break-word; /* Wrap text if it overflows */
+}
+
+
+
+.third{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.signed{
+    text-align: right;
+    font-weight: bolder;
+}
+
+
+.thirdSub{
+    width: 480px; /* Set width to match the combined width of previous rectangles */
+    margin: 0 auto; /* Center horizontally within its parent container */
+    padding: 20px; /* Optional: add padding for better spacing */
+    box-sizing: border-box; /* Include padding and border in the element's total width */
+    text-align: center; /* Center text horizontally */
+
+}
+
+
+
+
+
+
+
+/* Style for the fourth container */
+.fourth {
+    background-color: #fff; /* White background for the container */
+    padding: 20px; /* Padding around the content */
+    display: flex; /* Use Flexbox to center content */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 300px; /* Adjust height as needed */
+    box-sizing: border-box; /* Include padding in the element's total width/height */
+}
+
+/* Style for the rectangle container */
+.bigRectangle {
+    background-color: #1E3A8A; /* Blue background for the rectangle */
+    border-radius: 12px; /* Round edges */
+    width: 550px; /* Fixed width for the rectangle */
+    height: 100px; /* Adjust height as needed */
+    display: flex; /* Use Flexbox for internal layout */
+    justify-content: space-between; /* Space between text and button */
+    align-items: center; /* Center content vertically */
+    padding: 20px; /* Padding inside the rectangle */
+    box-sizing: border-box; /* Include padding in the element's total width/height */
+    color: #fff; /* White text color */
+}
+
+/* Style for call-to-action text */
+.cta-text {
+    max-width: 300px; /* Ensure text does not overflow */
+}
+
+/* Main call-to-action text */
+.main-cta {
+    font-size: 24px; /* Larger font size for emphasis */
+    margin: 0; /* Remove default margin */
+}
+
+/* Smaller text below the main CTA */
+.sub-cta {
+    font-size: 16px; /* Smaller font size */
+    margin: 5px 0 0; /* Margin for spacing */
+}
+
+/* Style for the sign up button */
+.signup-btn {
+    background-color: #3B82F6; /* Blue background for the button */
+    border: none; /* Remove default border */
+    color: #fff; /* White text color */
+    padding: 10px 20px; /* Padding around the button text */
+    font-size: 16px; /* Font size for the button text */
+    border-radius: 8px; /* Round edges of the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+footer{
+    background-color: #1F2937;
+    font-size: 12px;
+    
+
+}
+
+
+.lastElement{
+    text-align: center; 
+    color:white;
+    padding: 25px;
+}
